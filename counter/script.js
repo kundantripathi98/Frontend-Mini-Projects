@@ -29,4 +29,3 @@ minusBtn.addEventListener("click", ()=>{
     counter.textContent = count;
 });
 
-
