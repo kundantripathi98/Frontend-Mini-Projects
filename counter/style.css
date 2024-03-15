@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.301);
+}
+
+.counter-program{
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.counter{
+    font-size: 60px;
+}
+
+button{
+    padding: 10px 15px;
+    margin: 20px 5px;
+    font-size: 18px;
+    background-color: aqua;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.minusBtn{
+    padding: 10px 18px;
+}
+
+h3{
+    display: inline-block;
+    font-weight: 400;
+}
+
+input{
+    padding: 10px;
+    width: 80px;
+    font-size: 15px;
+}
