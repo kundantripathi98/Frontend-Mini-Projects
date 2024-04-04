@@ -6,6 +6,7 @@ let count = 0,
     input = document.querySelector("input"),
     resetBtn = document.querySelector(".resetBtn");
 
+
 input.addEventListener("input", (e)=>{
    if(input.value < 1){
         e.preventDefault();
